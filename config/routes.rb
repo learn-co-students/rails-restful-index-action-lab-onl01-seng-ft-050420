@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   #class StudentsController < ApplicationController
 
     get "/students", to: 'students#index'
-    
+    #render '/views/layouts/students/index.html.erb'
     
  
 end
